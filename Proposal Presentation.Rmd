@@ -1,0 +1,103 @@
+---
+title: "Tag Prediction on Stack Exchange"
+author:
+- Shravan Honade
+- Ritesh Sengar
+- Nikhil Patil
+- Dhananjay Ghate
+- Neena Chaudhari
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation: default
+  powerpoint_presentation: default
+  beamer_presentation: default
+  slidy_presentation: default
+subtitle: Group 3
+---
+
+## Problem Description
+
+**<span style='text-decoration: underline;'>Primary objectives:</span>**
+
+This project aims to use data and modeling to explore and predict tags for questions on Stack Exchange.The primary objectives are as follows:
+
+1.  Data Extraction
+
+2.  Exploratory Data Analysis (EDA)
+
+3.  Machine Learning Model Development
+
+<div style="position: absolute; top: 400px; left: 500px;">
+  <img src="stackexc.png" width="300" height="200">
+</div>
+
+
+## Why is it interesting?
+
+1.  **Real-world Application**: Improving tag prediction for Stack Exchange and other platforms could benefit millions of users.
+
+2.  **Data-Driven Insights**: EDA can reveal user behavior, popular topics, and challenges on Stack Exchange.
+
+3.  **Automation**: Automating tag prediction can save time and improve efficiency for moderators and users.
+
+4.  **User Experience Improvement**: Accurate tagging improves user engagement by making it easier to find relevant content.
+
+## Analytics Plan - Exploratory Data Analysis
+
+**<span style='text-decoration: underline;'>List of EDA tasks:</span>**
+
+1.  Monthly questions count
+
+2.  Percentage marked as answered vs. questions
+
+3.  Relationships between answers and users
+
+4.  Common words/tags in titles
+
+5.  Growth or shrinking of particular tags over time
+
+## Methods and Tools
+
+1.  **API Integration (httr package)**: httr will be used to interact with APIs and retrieve data for analysis.
+
+2.  **Data Visualization (ggplot)**: ggplot will be used to visualize data patterns and model performance.
+
+3.  **Machine Learning Libraries (H2O, Keras)**: H2O, Keras and other models will be utilized as the machine learning frameworks.
+
+<div style="position: absolute; top: 350px; left: 500px;">
+  <img src="tags.png" width="300" height="200">
+</div>
+
+## Evaluation Plan
+
+**<span style='text-decoration: underline;'>Objectives and goals:</span>**
+
+Objective 1: Extract relevant data from the Stack Exchange API.
+
+Objective 2: Conduct exploratory data analysis (EDA).
+
+Objective 3: Develop a machine learning model.
+
+**<span style='text-decoration: underline;'>Key Performance Indicators (KPIs):</span>**
+
+KPI 1: Accuracy
+
+KPI 2: Metrics
+
+KPI 3: Reduction in Manual Tagging
+
+
+```{=html}
+<style>
+
+body, .reveal .state-background {
+    background-color: #34495E;
+    color: #E5E7E9;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #E59866;
+}
+
+</style>
+
+```

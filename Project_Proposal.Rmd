@@ -1,0 +1,85 @@
+---
+title: "Project_Proposal"
+author: "Neena Chaudhari"
+date: "2023-10-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Team Members
+
+**Shravan Honade**
+
+**Ritesh Sengar**
+
+**Nikhil Patil**
+
+**Dhananjay Ghate**
+
+**Neena Chaudhari**
+
+
+## Problem Description
+This project involves a comprehensive data-driven exploration and predictive modeling task for questions posted on the Stack Exchange platform. The primary objectives are as follows:
+ 
+1. **Data Extraction**: The initial step of the project focuses on extracting relevant data from the Stack Exchange API, which includes question texts, associated tags, and various metadata.
+ 
+2. **Exploratory Data Analysis (EDA)**: After data extraction, a thorough EDA will be conducted to gain insights into the dataset. This analysis will encompass data distribution, question-answer analysis length, word frequency, and other exploratory aspects.
+ 
+3. **Machine Learning Model Development**: The core of the project involves developing a machine learning model that can predict the most appropriate tag for a given question based on the historical data. The model may utilize natural language processing (NLP) techniques, feature engineering, and classification algorithms to achieve this task.
+ 
+The project aims to improve the efficiency of question tagging on Stack Exchange by automating the process with a reliable machine learning model. This will enhance the user experience, reduce manual effort, and promote a better organization of the platform's content."
+
+## Why is it interesting?
+
+This project is interesting for several reasons:
+ 
+1. **Real-world Application**: It addresses a real-world problem faced by Stack Exchange and similar online platforms. Efficiently tagging questions is crucial for improving searchability, relevance, and user experience. A successful solution could benefit millions of users.
+ 
+2. **Data-Driven Insights**: Exploratory Data Analysis (EDA) can reveal patterns and trends within the question and tag data. Understanding these patterns can offer valuable insights into the behavior of users on the platform, the most common topics, and the challenges they face.
+ 
+3. **Automation**: Automating the tag prediction process can significantly reduce the manual effort required by moderators and users to tag questions accurately. This is a time-saving and efficiency-improving solution.
+ 
+5. **User Experience Improvement**: Accurate tagging makes it easier for users to find relevant questions and answers. This, in turn, can enhance user satisfaction and engagement with the platform.
+
+## Analytics plan
+
+**Exploratory Data Analysis**
+
+1. Monthly questions count – provide the distribution of number of questions asked per month.
+2. Percentage marked as answered vs. questions
+3. Relationships between answers and users
+4. What are the most common words/tags in the titles
+5. Compare the growth or shrinking of particular tags over time
+
+
+**What methods or tools will you use?**
+
+**API Integration**: The httr package will be employed to interact with APIs, facilitating data retrieval and integration into the analysis.
+
+**Data Visualization**: ggplot will be utilized as the primary tool for creating visualizations, enabling the representation of data patterns and model performance.
+
+**Machine Learning Libraries**: H2O, Keras and other models will be utilized as the machine learning frameworks.
+
+## Project Evaluation Plan
+
+**1. Project Objectives and Goals**
+
+**Objective 1**: Extract relevant data from the Stack Exchange API.
+
+**Objective 2**: Conduct exploratory data analysis (EDA) to gain insights   into the dataset.
+
+**Objective 3**: Develop a machine learning model to predict the most appropriate tags for questions.
+
+**2. Key Performance Indicators (KPIs)**
+
+**KPI 1 (Accuracy)**: Measure the accuracy of the machine learning model using cross-validation on a test dataset. The model should correctly predict the tags for questions.
+
+**KPI 2 (Metrics)**: Collect data on model performance, including accuracy, precision, recall, and F1-score.
+
+**KPI 3 (Reduction in Manual Tagging)**: Track the time spent on manual tagging before and after the implementation of the model.
+
+
